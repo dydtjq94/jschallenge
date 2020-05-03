@@ -11,7 +11,7 @@ function saveName(text) {
 
 function handleSubmit(event) {
   //submit해도 아무일도 안일어나게 막음 (기본동작을 막음)
-  event.preventDefault();
+  // event.preventDefault();
   const currentValue = input.value;
   console.log(currentValue);
   paintGreeting(currentValue);
